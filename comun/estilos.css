@@ -1,7 +1,7 @@
-@import url(/comun/jquery-prettyPhoto.css);
+@import url(comun/jquery-prettyPhoto.css);
 
 /*
-  Juan Díaz - deide.com
+  Juan DÃ­az - deide.com
 
   amarillo  #ffdf7a
   rojo      #963f29
@@ -175,4 +175,5 @@ ul {
 .pie span {
   color:#ffdf7a;
   padding:0 5px;
+
 }
