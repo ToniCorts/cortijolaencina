@@ -1,0 +1,178 @@
+@import url(/comun/jquery-prettyPhoto.css);
+
+/*
+  Juan Díaz - deide.com
+
+  amarillo  #ffdf7a
+  rojo      #963f29
+  verde     #005135
+  lima      #ebf1ef
+*/
+
+a {
+  color:#005135;
+  text-decoration:none;
+}
+address {
+  font-style:normal;
+}
+body {
+  background:white;
+  cursor:default;
+  color:black;
+  font:12px Tahoma, Verdana, Arial, sans-serif;
+  margin:5px;
+  text-align:center;
+}
+em {
+  color:silver;
+  font-size:9px;
+  font-style:normal;
+  line-height:50px;
+}
+  em a {
+    color:silver;
+    font-weight:bold;
+  }
+h1 {
+  color:#005135;
+  font:italic bold 15px Georgia, Times New Roman, serif;
+  text-align:left;
+}
+img,
+table {
+  border:none;
+}
+li {
+  list-style-image:url(/img/topo-rojo.gif);
+}
+p {
+  line-height:20px;
+  text-align:left;
+}
+td {
+  padding:3px;
+  text-align:center;
+}
+th {
+  background:#ebf1ef;
+  color:#005135;
+  padding:3px;
+  text-align:center;
+}
+ul {
+  margin-left:20px;
+	line-height:20px;
+}
+
+.centrado {
+  margin:0 auto;
+  text-align:left;
+  width:990px;
+}
+
+.cabeza {
+  border-bottom:5px solid #005135;
+  clear:both;
+  height:93px;
+}
+  .cabeza .idiomas {
+    color:#963f29;
+    font-size:10px;
+    height:53px;
+    text-align:right;
+    width:990px;
+  }
+    .cabeza .idiomas img {
+      vertical-align:middle;
+    }
+  .cabeza .logo {
+    float:left;
+    height:inherit;
+    width:316px;
+  }
+  .cabeza .menu {
+    background:url(/img/menu-fondo.gif) no-repeat right bottom;
+    height:20px;
+    padding:20px 10px 0 0;
+    text-align:right;
+    width:980px;
+  }
+    .cabeza .menu a,
+    .cabeza .menu a.off {
+      background:url(/img/topo-verde.gif) no-repeat left center;
+      color:#005135;
+      font-weight:bold;
+      margin-left:15px;
+      padding-left:12px;
+    }
+    .cabeza .menu a:hover,
+    .cabeza .menu a.on {
+      color:#963f29;
+      font-weight:bold;
+      margin-left:15px;
+      padding-left:12px;
+    }
+    .cabeza .menu a:hover {
+      background:url(/img/topo-rojo.gif) no-repeat left center;
+    }
+    .cabeza .menu a.on {
+      background:url(/img/topo-rojo-on.gif) no-repeat left center;
+    }
+
+.cuerpo {
+  clear:both;
+  height:453px;
+  margin:5px 0;
+  position:relative;
+}
+  .cuerpo .foto {
+    left:0;
+    position:absolute;
+    top:0;
+    z-index:1;
+  }
+  .cuerpo .texto,
+  .cuerpo .texto-portada {
+    height:433px;
+    overflow:auto;
+    padding:10px 0;
+    position:absolute;
+    text-align:left;
+    top:0;
+    z-index:2;
+  }
+  .cuerpo .texto {
+    left:410px;
+    width:580px;
+  }
+  .cuerpo .texto-portada {
+    left:580px;
+    width:410px;
+  }
+	
+    .cuerpo .resaltado {
+      background:#ebf1ef url(/img/resaltado-fondo.gif) no-repeat left center;
+    }
+      .cuerpo .resaltado div {
+        padding:5px 10px;
+      }
+      .cuerpo .resaltado p {
+        color:#005135;
+        font-size:11px;
+        text-align:right;
+      }
+
+.pie {
+  border-top:5px solid #005135;
+  clear:both;
+  margin-top:5px;
+  padding-top:5px;
+}
+.pie address {
+  color:#005135;
+}
+.pie span {
+  color:#ffdf7a;
+  padding:0 5px;
+}

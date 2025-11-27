@@ -1,0 +1,82 @@
+/*
+  Juan Díaz - deide.com
+*/
+
+.tit {
+  background:url(/img/tit-portada.gif) no-repeat left top;
+  color:white;
+  font-size:.01em;
+  height:80px;
+  line-height:.0em;
+}
+
+.titentorno {
+  background:url(/img/tit-entorno.gif) no-repeat left top;
+  color:white;
+  font-size:.01em;
+  height:80px;
+  line-height:.0em;
+}
+
+.titcasa {
+  background:url(/img/tit-casa.gif) no-repeat left top;
+  color:white;
+  font-size:.01em;
+  height:80px;
+  line-height:.0em;
+}
+.tittarifas {
+  background:url(/img/tit-tarifas.gif) no-repeat left top;
+  color:white;
+  font-size:.01em;
+  height:80px;
+  line-height:.0em;
+}
+
+.titreservas {
+  background:url(/img/tit-reservas.gif) no-repeat left top;
+  color:white;
+  font-size:.01em;
+  height:80px;
+  line-height:.0em;
+}
+
+.titllegar {
+  background:url(/img/tit-llegar.gif) no-repeat left top;
+  color:white;
+  font-size:.01em;
+  height:80px;
+  line-height:.0em;
+}
+
+.tithacer {
+  background:url(/img/tit-hacer.gif) no-repeat left top;
+  color:white;
+  font-size:.01em;
+  height:80px;
+  line-height:.0em;
+}
+
+.titcontactar {
+  background:url(/img/tit-contacta.gif) no-repeat left top;
+  color:white;
+  font-size:.01em;
+  height:80px;
+  line-height:.0em;
+}
+
+.titenlaces {
+  background:url(/img/tit-enlaces.gif) no-repeat left top;
+  color:white;
+  font-size:.01em;
+  height:80px;
+  line-height:.0em;
+}
+
+.titgaleria {
+  background:url(/img/tit-galeria.gif) no-repeat left top;
+  color:white;
+  font-size:.01em;
+  height:80px;
+  line-height:.0em;
+}
